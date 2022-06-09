@@ -51,8 +51,7 @@ img {
 }
 
 a,
-a:hover,
-a:focus {
+a:hover {
   color: inherit;
 }
 
@@ -374,10 +373,10 @@ span {
 
 .main-btn {
   display: inline-block;
-  background-color: white;
+  background-color: black;
   padding: 10px 20px;
   border-radius: 20px;
-  color: blue;
+  color: white;
   text-transform: uppercase;
   -webkit-transition: 0.2s background-color ease;
   -o-transition: 0.2s background-color ease;
@@ -389,7 +388,7 @@ span {
 }
 
 .main-btn:hover {
-  color: white;
+  color: greenyellow;
   background-color: black;
   border: 2px solid black;
 }
