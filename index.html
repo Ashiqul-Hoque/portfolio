@@ -15,6 +15,13 @@
 
     <title>Ashiq-Portfolio</title>
 
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
     <!-- favicon -->
     <link href="images/favicon.ico" rel="icon" type="image/png" />
 
@@ -389,80 +396,537 @@
           </div>
         </div>
         <div class="row portfolio-items">
-          <!--Portfolio Item-->
+          <!--Portfolio Item 1-->
           <div class="col-lg-4 col-md-6 item mern">
             <div class="item-content">
               <img src="images/FreshtaThum.jpg" alt="" />
-              <div class="mt-3 d-flex justify-content-around">
-                <a
-                  href="https://freshta-management-system.web.app/"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >Live Site</a
+              <div>
+                <h6 class="mt-2 text-center">
+                  Project : Grocery Product Management
+                </h6>
+              </div>
+              <div>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm d-block mx-auto mb-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#freshta"
                 >
-                <a
-                  href="https://github.com/Ashiqul-Hoque/Freshta-Management-System_-Client-Side-"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >GitHub (Client)</a
+                  Explore More
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="freshta"
+                  tabindex="-5"
+                  aria-labelledby="freshtaInfo"
+                  aria-hidden="true"
                 >
-                <a
-                  href="https://github.com/Ashiqul-Hoque/Freshta-Management-System_Server-Side"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >GitHub (Server)</a
-                >
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content bg-gray">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="freshtaInfo">
+                          Freshta Management System (Grocery Product Management
+                          Website)
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-lg-2">
+                          <div class="col">
+                            <div
+                              id="carouselExampleIndicators"
+                              class="carousel carousel-dark slide carousel-fade mt-3"
+                              data-bs-ride="true"
+                            >
+                              <div class="carousel-indicators">
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndicators"
+                                  data-bs-slide-to="0"
+                                  class="active"
+                                  aria-current="true"
+                                  aria-label="Slide 1"
+                                ></button>
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndicators"
+                                  data-bs-slide-to="1"
+                                  aria-label="Slide 2"
+                                ></button>
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndicators"
+                                  data-bs-slide-to="2"
+                                  aria-label="Slide 3"
+                                ></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div
+                                  class="carousel-item active"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/FreshtaS1.png"
+                                    class="d-block w-100"
+                                    alt=""
+                                  />
+                                </div>
+                                <div
+                                  class="carousel-item"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/FreshtaS2.png"
+                                    class="d-block w-100"
+                                    alt=""
+                                  />
+                                </div>
+                                <div
+                                  class="carousel-item"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/freshtaS3.png"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                              </div>
+                              <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <h5 class="mt-3">Project Summary :</h5>
+                            <p>
+                              - Product summary displayed according to the
+                              product category
+                            </p>
+                            <p>
+                              - Business growth analytics shown using ReChart
+                            </p>
+                            <p>
+                              - After login authorized person can update the
+                              product/delete the product/ add any product.
+                            </p>
+                            <h5 class="mt-3">Built with :</h5>
+                            <p>
+                              HTML, CSS, Bootstrap, React, React Router,
+                              ReChart, Firebase, React Toastify, NodeJS,
+                              ExpressJS, MongoDB, Heroku
+                            </p>
+
+                            <div class="mt-4 d-flex justify-content-evenly">
+                              <a
+                                href="https://freshta-management-system.web.app/"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >Live Site</a
+                              >
+                              <a
+                                href="https://github.com/Ashiqul-Hoque/Freshta-Management-System_-Client-Side-"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >GitHub (Client)</a
+                              >
+                              <a
+                                href="https://github.com/Ashiqul-Hoque/Freshta-Management-System_Server-Side"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >GitHub (Server)</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!--Portfolio Item-->
+
+          <!--Portfolio Item 2-->
           <div class="col-lg-4 col-md-6 item mern">
             <div class="item-content">
               <img src="images/western-thum.jpg" alt="" />
-              <div class="mt-3 d-flex justify-content-around">
-                <a
-                  href="https://western-tools-company.web.app/"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >Live Site</a
+              <div>
+                <h6 class="mt-2 text-center">
+                  Project : Product (Tools) Buy & Management
+                </h6>
+              </div>
+              <div>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm d-block mx-auto mb-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#tools"
                 >
-                <a
-                  href="https://github.com/Ashiqul-Hoque/Western-Tools_Client-Side"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >GitHub (Client)</a
+                  Explore More
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="tools"
+                  tabindex="-5"
+                  aria-labelledby="toolsInfo"
+                  aria-hidden="true"
                 >
-                <a
-                  href="https://github.com/Ashiqul-Hoque/Western-Tools_Server-Side"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >GitHub (Server)</a
-                >
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content bg-gray">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="toolsInfo">
+                          Western Tools Co. (Tools Purchase Website)
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-lg-2">
+                          <div class="col">
+                            <div
+                              id="carouselExampleIndicator"
+                              class="carousel carousel-dark slide carousel-fade mt-3"
+                              data-bs-ride="true"
+                            >
+                              <div class="carousel-indicators">
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndicator"
+                                  data-bs-slide-to="0"
+                                  class="active"
+                                  aria-current="true"
+                                  aria-label="Slide 1"
+                                ></button>
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndicator"
+                                  data-bs-slide-to="1"
+                                  aria-label="Slide 2"
+                                ></button>
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndicator"
+                                  data-bs-slide-to="2"
+                                  aria-label="Slide 3"
+                                ></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div
+                                  class="carousel-item active"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/toolsS1.png"
+                                    class="d-block w-100"
+                                    alt=""
+                                  />
+                                </div>
+                                <div
+                                  class="carousel-item"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/toolsS2.png"
+                                    class="d-block w-100"
+                                    alt=""
+                                  />
+                                </div>
+                                <div
+                                  class="carousel-item"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/toolsS3.png"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                              </div>
+                              <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicator"
+                                data-bs-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndicator"
+                                data-bs-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <h5 class="mt-3">Project Summary :</h5>
+                            <p>
+                              - User can order products (tools) by creating user
+                              account. Account is verified by firebase
+                              authentication
+                            </p>
+                            <p>
+                              - Authorized user can update his profile, give
+                              review, watch his order in his dashboard.
+                            </p>
+                            <p>
+                              - Admin can manage all orders, add product, make
+                              another person admin
+                            </p>
+                            <p>
+                              - Product quantity change & others updates are
+                              saved in database
+                            </p>
+                            <h5 class="mt-3">Built with :</h5>
+                            <p>
+                              HTML, CSS, Tailwind, Daisy UI, React, React
+                              Router, Firebase, React Toastify, React Query,
+                              NodeJS, ExpressJS, MongoDB, Heroku
+                            </p>
+
+                            <div class="mt-4 d-flex justify-content-evenly">
+                              <a
+                                href="https://western-tools-company.web.app/"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >Live Site</a
+                              >
+                              <a
+                                href="https://github.com/Ashiqul-Hoque/Western-Tools_Client-Side"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >GitHub (Client)</a
+                              >
+                              <a
+                                href="https://github.com/Ashiqul-Hoque/Western-Tools_Server-Side"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >GitHub (Server)</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <!--Portfolio Item-->
+          <!--Portfolio Item 3-->
           <div class="col-lg-4 col-md-6 item react">
             <div class="item-content">
               <img src="images/healthy-smile-thum.jpg" alt="" />
-              <div class="mt-3 d-flex justify-content-around">
-                <a
-                  href="https://healthy-smile-70015.web.app/"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >Live Site</a
+              <div>
+                <h6 class="mt-2 text-center">Project : A Dentist's Website</h6>
+              </div>
+              <div>
+                <!-- Button trigger modal -->
+                <button
+                  type="button"
+                  class="btn btn-primary btn-sm d-block mx-auto mb-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#smile"
                 >
-                <a
-                  href="https://github.com/Ashiqul-Hoque/Healthy-Smile"
-                  target="_blank"
-                  class="btn btn-success btn-sm"
-                  >GitHub (Code)</a
+                  Explore More
+                </button>
+
+                <!-- Modal -->
+                <div
+                  class="modal fade"
+                  id="smile"
+                  tabindex="-5"
+                  aria-labelledby="smileInfo"
+                  aria-hidden="true"
                 >
+                  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                    <div class="modal-content bg-gray">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="smileInfo">
+                          Healthy Smile (A Dentist's Website)
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="row row-cols-1 row-cols-lg-2">
+                          <div class="col">
+                            <div
+                              id="carouselExampleIndica"
+                              class="carousel carousel-dark slide carousel-fade mt-3"
+                              data-bs-ride="true"
+                            >
+                              <div class="carousel-indicators">
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndica"
+                                  data-bs-slide-to="0"
+                                  class="active"
+                                  aria-current="true"
+                                  aria-label="Slide 1"
+                                ></button>
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndica"
+                                  data-bs-slide-to="1"
+                                  aria-label="Slide 2"
+                                ></button>
+                                <button
+                                  type="button"
+                                  data-bs-target="#carouselExampleIndica"
+                                  data-bs-slide-to="2"
+                                  aria-label="Slide 3"
+                                ></button>
+                              </div>
+                              <div class="carousel-inner">
+                                <div
+                                  class="carousel-item active"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/SmileS1.png"
+                                    class="d-block w-100"
+                                    alt=""
+                                  />
+                                </div>
+                                <div
+                                  class="carousel-item"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/SmileS2.png"
+                                    class="d-block w-100"
+                                    alt=""
+                                  />
+                                </div>
+                                <div
+                                  class="carousel-item"
+                                  data-bs-interval="2000"
+                                >
+                                  <img
+                                    src="./images/SmileS3.png"
+                                    class="d-block w-100"
+                                    alt="..."
+                                  />
+                                </div>
+                              </div>
+                              <button
+                                class="carousel-control-prev"
+                                type="button"
+                                data-bs-target="#carouselExampleIndica"
+                                data-bs-slide="prev"
+                              >
+                                <span
+                                  class="carousel-control-prev-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button
+                                class="carousel-control-next"
+                                type="button"
+                                data-bs-target="#carouselExampleIndica"
+                                data-bs-slide="next"
+                              >
+                                <span
+                                  class="carousel-control-next-icon"
+                                  aria-hidden="true"
+                                ></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <h5 class="mt-3">Project Summary :</h5>
+                            <p>
+                              - Dentist's information & her different type of
+                              services are shown
+                            </p>
+                            <p>- To book service, user have to logged in</p>
+                            <p>- Firebase authentication integrated</p>
+
+                            <h5 class="mt-3">Built with :</h5>
+                            <p>
+                              HTML, CSS, Bootstrap, React, React Router,
+                              Firebase, React Toastify
+                            </p>
+
+                            <div class="mt-4 d-flex justify-content-evenly">
+                              <a
+                                href="https://healthy-smile-70015.web.app/"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >Live Site</a
+                              >
+                              <a
+                                href="https://github.com/Ashiqul-Hoque/Healthy-Smile"
+                                target="_blank"
+                                class="btn btn-success btn-sm"
+                                >GitHub (Code)</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <!--Portfolio Item-->
-          <div class="col-lg-4 col-md-6 item react">
+          <!-- <div class="col-lg-4 col-md-6 item react">
             <div class="item-content">
               <img src="images/moto-racer-thum.jpg" alt="" />
               <div class="mt-3 d-flex justify-content-around">
@@ -480,9 +944,9 @@
                 >
               </div>
             </div>
-          </div>
+          </div> -->
           <!--Portfolio Item-->
-          <div class="col-lg-4 col-md-6 item html">
+          <!-- <div class="col-lg-4 col-md-6 item html">
             <div class="item-content">
               <img src="images/firefly-convention-thum.jpg" alt="" />
               <div class="mt-3 d-flex justify-content-around">
@@ -500,9 +964,9 @@
                 >
               </div>
             </div>
-          </div>
+          </div> -->
           <!--Portfolio Item-->
-          <div class="col-lg-4 col-md-6 item html">
+          <!-- <div class="col-lg-4 col-md-6 item html">
             <div class="item-content">
               <img src="images/gear thum.jpg" alt="" />
               <div class="mt-3 d-flex justify-content-around">
@@ -520,7 +984,7 @@
                 >
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -572,8 +1036,12 @@
         <div class="row">
           <div class="col-lg-10 offset-lg-1">
             <!--Contact Form-->
-            <form id="contact-form" method="POST">
-              <input type="hidden" name="form-name" value="contactForm" />
+            <form
+              id="contact-form"
+              action="https://formsubmit.co/ashiqul.eee@gmail.com"
+              method="POST"
+            >
+              <input type="hidden" value="contactForm" />
               <div class="row">
                 <div class="col-md-6 form-group">
                   <!--name-->
@@ -583,6 +1051,8 @@
                     id="contact-name"
                     placeholder="Name"
                     minlength="3"
+                    name="name"
+                    required
                   />
                 </div>
                 <div class="col-md-6 form-group">
@@ -592,6 +1062,8 @@
                     class="form-control con-validate"
                     id="contact-email"
                     placeholder="Email"
+                    name="email"
+                    required
                   />
                 </div>
                 <div class="col-md-12 form-group">
@@ -601,11 +1073,17 @@
                     id="contact-message"
                     placeholder="How can I help you?"
                     rows="6"
+                    name="massage"
+                    required
                   ></textarea>
                 </div>
                 <div class="col-md-12 text-center">
                   <!--contact button-->
-                  <button id="contact-submit" class="mt-30 main-btn">
+                  <button
+                    id="contact-submit"
+                    class="mt-30 main-btn"
+                    type="submit"
+                  >
                     Send Message
                   </button>
                 </div>
@@ -661,6 +1139,11 @@
     </footer>
     <!--Footer End-->
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
     <!--Jquery js-->
     <script src="js/jquery.min.js"></script>
     <!--Bootstrap js-->

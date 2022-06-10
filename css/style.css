@@ -1076,7 +1076,8 @@ section.portfolio .portfolio-filter ul li.sel-item {
 }
 
 section.portfolio .portfolio-items .item {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 section.portfolio .portfolio-items .item .item-content {
