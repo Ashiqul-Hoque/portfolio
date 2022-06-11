@@ -954,7 +954,19 @@ section.about .about-content .social-icons a:hover .fa {
 section.about .about-content .about-button {
   margin-top: 40px;
 }
-
+/*============ 6. Skills Section ============*/
+.box {
+  width: 50px;
+  height: 80px;
+  margin: 25px;
+}
+.box-text {
+  width: 60px;
+  height: 20px;
+}
+.text-width {
+  width: 150px;
+}
 /*============ 6. Services Section ============*/
 
 section.services .service-item {
