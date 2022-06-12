@@ -12,6 +12,7 @@
     <meta name="keywords" content="Personal, Portfolio, Creative" />
     <meta name="description" content="Kalvin Portfolio Template" />
     <meta name="author" content="cosmos-themes" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Ashiq-Portfolio</title>
 
@@ -66,7 +67,7 @@
   <body>
     <!--Preloader-->
     <div class="preloader">
-      <div class="loader"></div>
+      <!-- <div class="loader"></div> -->
     </div>
     <!--Preloader-->
 
@@ -171,24 +172,25 @@
     <section class="about pt-100 pb-50" data-scroll-index="1">
       <div class="container">
         <div class="row">
-          <div class="col-lg-5 col-md-6">
+          <div class="col-md-5" data-aos="zoom-in">
             <!--About Image-->
-            <div>
+
+            <div class="d-flex justify-content-center">
               <img
-                class="w-75 d-block mx-auto"
+                class="w-75 bg-gray rounded p-3"
                 src="images/about-img.png"
                 alt=""
               />
             </div>
           </div>
-          <div class="col-lg-7 col-md-6">
+          <div class="col-md-7" data-aos="zoom-in">
             <!--About Content-->
-            <div class="about-content">
+            <div>
               <div class="about-heading">
                 <h2>About Me</h2>
                 <span>Frontend Web Developer</span>
               </div>
-              <p>
+              <p class="text-justify">
                 I'm <b>Md. Ashiqul Hoque</b>, a passionate Frontend Web
                 Developer. Being a Frontend Web Developer I always eager to work
                 in a dynamic team who solves real-world engineering problem
@@ -196,7 +198,7 @@
                 growing with people of skills, current on technology, and who
                 will keep me motivated for the rest of my career.
               </p>
-              <p>
+              <p class="text-justify">
                 Besides being a web developer, I exchange my knowledge with
                 other people. I think this is one of the best ways to learn new
                 things. Also, I am passionate about learning new technologies in
@@ -211,7 +213,10 @@
                   target="_blank"
                   ><i class="fa fa-linkedin"></i
                 ></a>
-                <a href="https://github.com/Ashiqul-Hoque" target="_blank"
+                <a
+                  class="ml-3"
+                  href="https://github.com/Ashiqul-Hoque"
+                  target="_blank"
                   ><i class="fa fa-github"></i
                 ></a>
               </div>
@@ -223,12 +228,12 @@
     <!--About Section End-->
 
     <!--Skills Section Start-->
-    <section class="pt-50 pb-50" data-scroll-index="2">
+    <section class="pt-60 pb-60" data-scroll-index="2">
       <div class="container">
         <div class="heading text-center pt-30">
           <h2>My Skills</h2>
         </div>
-        <div class="my-3">
+        <div class="my-3" data-aos="zoom-in">
           <h5 class="fw-bold text-center">Expertise</h5>
           <div class="d-flex flex-wrap py-2 justify-content-center">
             <div class="box">
@@ -253,7 +258,7 @@
             </div>
           </div>
         </div>
-        <div class="my-3">
+        <div class="my-3" data-aos="zoom-in">
           <h5 class="fw-bold text-center">Comfortable</h5>
           <div class="d-flex flex-wrap py-2 justify-content-center">
             <div class="box">
@@ -298,7 +303,7 @@
             </div>
           </div>
         </div>
-        <div class="my-3">
+        <div class="my-3" data-aos="zoom-in">
           <h5 class="fw-bold text-center">Familiar</h5>
           <div class="d-flex flex-wrap py-2 justify-content-center">
             <div class="box">
@@ -315,7 +320,7 @@
             </div>
           </div>
         </div>
-        <div class="my-4">
+        <div class="my-4" data-aos="zoom-in">
           <h5 class="fw-bold text-center">Tools</h5>
           <div class="d-flex flex-wrap py-2 justify-content-center">
             <div class="box">
@@ -338,7 +343,6 @@
         </div>
       </div>
     </section>
-
     <!--Skills Section End-->
 
     <!--Stats Section Start-->
@@ -348,9 +352,8 @@
     >
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-md-6"> -->
-    <!--Stats Item-->
-    <!-- <div class="single-stat">
+          <div class="col-lg-3 col-md-6">
+            <div class="single-stat">
               <span class="stat-icon">
                 <i class="fa fa-users" aria-hidden="true"></i>
               </span>
@@ -358,9 +361,8 @@
               <p>Happy Clients</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6"> -->
-    <!--Stats Item-->
-    <!-- <div class="single-stat">
+          <div class="col-lg-3 col-md-6">
+            <div class="single-stat">
               <span class="stat-icon">
                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
               </span>
@@ -368,9 +370,8 @@
               <p>Projects Completed</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6"> -->
-    <!--Stats Item-->
-    <!-- <div class="single-stat">
+          <div class="col-lg-3 col-md-6">
+            <div class="single-stat">
               <span class="stat-icon">
                 <i class="fa fa-edit" aria-hidden="true"></i>
               </span>
@@ -378,9 +379,8 @@
               <p>Lines Of Code</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6"> -->
-    <!--Stats Item-->
-    <!-- <div class="single-stat">
+          <div class="col-lg-3 col-md-6">
+            <div class="single-stat">
               <span class="stat-icon">
                 <i class="fa fa-trophy" aria-hidden="true"></i>
               </span>
@@ -394,7 +394,7 @@
     <!--Stats Section End-->
 
     <!--Portfolio Section Start-->
-    <section class="portfolio pt-70 pb-70 bg-gray" data-scroll-index="3">
+    <section class="portfolio pt-80 pb-80 bg-gray" data-scroll-index="3">
       <div class="container">
         <div class="row">
           <div class="col">
@@ -1441,7 +1441,7 @@
     <!--Portfolio Section End-->
 
     <!--Blogs Section Start-->
-    <section class="pt-100 pb-100" data-scroll-index="4">
+    <section class="pt-80 pb-80" data-scroll-index="4">
       <div class="container">
         <h1 class="text-center">Blogs</h1>
         <p class="text-center">Coming Soon</p>
@@ -1450,7 +1450,7 @@
     <!--Blogs Section End-->
 
     <!--Contact Section Start-->
-    <section class="contact pt-100 pb-100" data-scroll-index="5">
+    <section class="contact pt-80 pb-80 bg-gray" data-scroll-index="5">
       <div class="container">
         <div class="row">
           <div class="col text-center">
@@ -1589,7 +1589,9 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <!--Site Main js-->
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
-
-  <!-- Mirrored from kalvin.netlify.app/index-creative3.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jun 2022 09:11:15 GMT -->
 </html>
